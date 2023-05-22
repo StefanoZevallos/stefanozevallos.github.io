@@ -125,3 +125,19 @@ botonCerrarRegalo6.addEventListener("click",function() {
         modalRegalo6.style.display = "none"
     } 
 }) 
+
+let regalo7 = document.querySelector(".regalo7")
+let modalRegalo7 = document.querySelector(".modal-container7")
+let botonCerrarRegalo7 = document.querySelector(".X7")
+
+regalo7.addEventListener("click",function() {
+    if(modalRegalo7.style.display = "none") {
+        modalRegalo7.style.display = "flex"
+    } 
+})
+
+botonCerrarRegalo7.addEventListener("click",function() {
+    if(modalRegalo7.style.display = "flex") {
+        modalRegalo7.style.display = "none"
+    } 
+}) 
