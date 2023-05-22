@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+.section1 {
+    display: flex;
+    height: 200px;
+}
+
+.leftdivsection1 {
+    width: 50%;
+    height: 100%;
+}
+
+.imagenInterrogacion,
+.imagenPerro,
+.imagenGato,
+.imagenRaton {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.rigthdivsection1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+}
+
+.botones-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.botonsection1 {
+    width: 100px;
+    height: 50px;
+}
+
+.imagenPerro {
+    display: none;
+}
+
+.imagenGato {
+    display: none;
+}
+
+.imagenRaton {
+    display: none;
+}
+/* ----------- */
+.section2 {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 500px;
+    padding-top: 23px;
+}
+
+.divsection2 {
+    width: 100%;
+    height: 100px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ----------- MODAL ---------- */
+
+.modal-container1 {
+    width: 100%;
+    height: 700px;;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal {
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 400px;
+    position: absolute ;
+    border-radius: 10px;
+}
+
+.modal-header {
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 25px;
+    width: 100%;
+    background-color: black;
+}
+
+.X {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 2px solid gold      ;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.frase {
+    padding:10px;
+    padding-bottom: 13px;
+    font-weight: bold;
+    font-size: medium;
+    font-style: italic;
+}
+
+.footerfoto-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerfoto {
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.nombrefilosofo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+/* MODAL 2 */
+
+.modal-container2 {
+    width: 100%;
+    height: 700px;;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal2 {
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 400px;
+    position: absolute ;
+    border-radius: 10px;
+}
+
+.modal-header2 {
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 25px;
+    width: 100%;
+    background-color: black;
+}
+
+.X2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 2px solid gold      ;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.frase2 {
+    padding:10px;
+    padding-bottom: 13px;
+    font-size:medium;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.footerfoto-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.footerfoto2 {
+    width: 180px;
+    height:auto;
+    object-fit: cover;
+}
+
+.nombrefilosofo-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-weight:bold ;
+}
+
+/* MODAL 3 */
+
+.modal-container3 {
+    width: 100%;
+    height: 700px;;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal3 {
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 400px;
+    position: absolute ;
+    border-radius: 10px;
+}
+
+.modal-header3 {
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 25px;
+    width: 100%;
+    background-color: black;
+}
+
+.X3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 2px solid gold      ;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.frase3 {
+    padding:10px;
+    padding-bottom: 13px;
+    font-size:medium;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.footerfoto-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.footerfoto3 {
+    width: 180px;
+    height: 235px;
+    object-fit: cover;
+}
+
+.nombrefilosofo-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-weight:bold ;
+}
+/* MODAL 4 */
+
+.modal-container4 {
+    width: 100%;
+    height: 700px;;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal4 {
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 400px;
+    position: absolute ;
+    border-radius: 10px;
+}
+
+.modal-header4 {
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 25px;
+    width: 100%;
+    background-color: black;
+}
+
+.X4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 2px solid gold      ;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.frase4 {
+    padding:10px;
+    padding-bottom: 13px;
+    font-size:medium;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.footerfoto-container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.footerfoto4 {
+    width: 180px;
+    height: 235px;
+    object-fit: cover;
+}
+
+.nombrefilosofo-container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-weight:bold ;
+}
+
+/* MODAL 5 */
+
+.modal-container5 {
+    width: 100%;
+    height: 700px;;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal5 {
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 400px;
+    position: absolute ;
+    border-radius: 10px;
+}
+
+.modal-header5 {
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 25px;
+    width: 100%;
+    background-color: black;
+}
+
+.X5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 2px solid gold      ;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.frase5 {
+    padding:10px;
+    padding-bottom: 13px;
+    font-size:medium;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.footerfoto-container5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.footerfoto5 {
+    width: 180px;
+    height: 235px;
+    object-fit: cover;
+}
+
+.nombrefilosofo-container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-weight:bold ;
+}
+
+/* MODAL 6 */
+
+.modal-container6 {
+    width: 100%;
+    height: 700px;;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal6 {
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 400px;
+    position: absolute ;
+    border-radius: 10px;
+}
+
+.modal-header6 {
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 25px;
+    width: 100%;
+    background-color: black;
+}
+
+.X6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 2px solid gold      ;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.frase6 {
+    padding:10px;
+    padding-bottom: 13px;
+    font-size:medium;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.footerfoto-container6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.footerfoto6 {
+    width: 180px;
+    height: 235px;
+    object-fit: cover;
+}
+
+.nombrefilosofo-container6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-weight:bold ;
+}

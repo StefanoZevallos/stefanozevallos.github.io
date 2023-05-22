@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1> Práctica de JavaScript Manipulacion del DOM </h1>
+    </header>
+    <div class="modal-container1">
+        <div class="modal">
+            <div class="modal-header">
+                <div class="X">
+                    <p> x </p>
+                </div>
+            </div>
+            <p class="frase"> Es peor cometer una injusticia que padecerla porque quien la comete se convierte en
+                injusto y quien la padece no.</p>
+            <div class="footerfoto-container">
+                <img class="footerfoto" src="https://www.greekboston.com/wp-content/uploads/2017/12/Socrates-720x480.jpg" alt="">
+                <div class="nombrefilosofo-container">
+                    <p> SOCRÁTES </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-container2">
+        <div class="modal2">
+            <div class="modal-header2">
+                <div class="X2">
+                    <p> x </p>
+                </div>
+            </div>
+            <p class="frase2"> No estoy de acuerdo con lo que dices, pero defenderé con mi vida tu derecho a expresarlo.</p>
+            <div class="footerfoto-container2">
+                <img class="footerfoto2" src="data:image/jpeg;base64,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" alt="">
+                <div class="nombrefilosofo-container2">
+                    <p> VOLTAIRE </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-container3">
+        <div class="modal3">
+            <div class="modal-header3">
+                <div class="X3">
+                    <p> x </p>
+                </div>
+            </div>
+            <p class="frase3"> No me molesta que me hayas mentido, me molesta que a partir de ahora no pueda creerte. </p>
+            <div class="footerfoto-container3">
+                <img class="footerfoto3" src="https://media.gettyimages.com/id/1329044867/es/vector/retrato-de-friedrich-nietzsche-1882.jpg?s=612x612&w=gi&k=20&c=MixMkwUAtn3VNE1TKC5dT6jjxjWGuAQ_pMhZIEGmk4s=" alt="">
+                <div class="nombrefilosofo-container3">
+                    <p> NIETZSCHE
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-container4">
+        <div class="modal4">
+            <div class="modal-header4">
+                <div class="X4">
+                    <p> x </p>
+                </div>
+            </div>
+            <p class="frase4"> No me molesta que me hayas mentido, me molesta que a partir de ahora no pueda creerte. </p>
+            <div class="footerfoto-container4">
+                <img class="footerfoto4" src="https://media.gettyimages.com/id/1329044867/es/vector/retrato-de-friedrich-nietzsche-1882.jpg?s=612x612&w=gi&k=20&c=MixMkwUAtn3VNE1TKC5dT6jjxjWGuAQ_pMhZIEGmk4s=" alt="">
+                <div class="nombrefilosofo-container4">
+                    <p> NIETZSCHE
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-container5">
+        <div class="modal5">
+            <div class="modal-header5">
+                <div class="X5">
+                    <p> x </p>
+                </div>
+            </div>
+            <p class="frase5"> No me molesta que me hayas mentido, me molesta que a partir de ahora no pueda creerte. </p>
+            <div class="footerfoto-container5">
+                <img class="footerfoto5" src="https://media.gettyimages.com/id/1329044867/es/vector/retrato-de-friedrich-nietzsche-1882.jpg?s=612x612&w=gi&k=20&c=MixMkwUAtn3VNE1TKC5dT6jjxjWGuAQ_pMhZIEGmk4s=" alt="">
+                <div class="nombrefilosofo-container5">
+                    <p> NIETZSCHE
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-container6">
+        <div class="modal6">
+            <div class="modal-header6">
+                <div class="X6">
+                    <p> x </p>
+                </div>
+            </div>
+            <p class="frase6"> No me molesta que me hayas mentido, me molesta que a partir de ahora no pueda creerte. </p>
+            <div class="footerfoto-container6">
+                <img class="footerfoto6" src="https://media.gettyimages.com/id/1329044867/es/vector/retrato-de-friedrich-nietzsche-1882.jpg?s=612x612&w=gi&k=20&c=MixMkwUAtn3VNE1TKC5dT6jjxjWGuAQ_pMhZIEGmk4s=" alt="">
+                <div class="nombrefilosofo-container6">
+                    <p> NIETZSCHE
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section1">
+        <div class="leftdivsection1">
+            <img class="imagenInterrogacion"
+                src="https://img.freepik.com/fotos-premium/chico-sorprendido-cara-graciosa-camiseta-amarilla-brillante-apuntando-dedo-al-fondo-blanco-derecho_77829-7159.jpg?w=2000"
+                alt="">
+            <img class="imagenPerro"
+                src="https://static.fundacion-affinity.org/cdn/farfuture/PVbbIC-0M9y4fPbbCsdvAD8bcjjtbFc0NSP3lRwlWcE/mtime:1643275542/sites/default/files/los-10-sonidos-principales-del-perro.jpg"
+                alt="">
+            <img class="imagenGato" src="https://hospitalveterinariodonostia.com/wp-content/uploads/2020/10/gatos.png"
+                alt="">
+            <img class="imagenRaton" src="https://comodibujar.club/wp-content/uploads/2019/09/raton-kawaii.jpg" alt="">
+        </div>
+        <div class="rigthdivsection1">
+            <div class="botones-container">
+                <button class="botonsection1 botonPerro"> Perro </button>
+                <button class="botonsection1 botonGato"> Gato </button>
+                <button class="botonsection1 botonRaton"> Ratón </button>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+        <div class="divsection2">
+            <img class="regalo1"
+                src="https://media.istockphoto.com/id/1308342088/es/vector/caja-de-regalo-sorpresa-caja-de-regalo-con-lazo-de-cinta-roja-estilo-plano-dise%C3%B1o-de.jpg?s=612x612&w=0&k=20&c=43ARGQqjz1bKKS901pPPnNnnFrOhP1K_KBtwYDoYF8k="
+                alt="">
+        </div>
+        <div class="divsection2">
+            <img class="regalo2"
+                src="https://media.istockphoto.com/id/1308342088/es/vector/caja-de-regalo-sorpresa-caja-de-regalo-con-lazo-de-cinta-roja-estilo-plano-dise%C3%B1o-de.jpg?s=612x612&w=0&k=20&c=43ARGQqjz1bKKS901pPPnNnnFrOhP1K_KBtwYDoYF8k="
+                alt="">
+        </div>
+        <div class="divsection2">
+            <img class="regalo3"
+                src="https://media.istockphoto.com/id/1308342088/es/vector/caja-de-regalo-sorpresa-caja-de-regalo-con-lazo-de-cinta-roja-estilo-plano-dise%C3%B1o-de.jpg?s=612x612&w=0&k=20&c=43ARGQqjz1bKKS901pPPnNnnFrOhP1K_KBtwYDoYF8k="
+                alt="">
+        </div>
+        <div class="divsection2">
+            <img class="regalo4"
+                src="https://media.istockphoto.com/id/1308342088/es/vector/caja-de-regalo-sorpresa-caja-de-regalo-con-lazo-de-cinta-roja-estilo-plano-dise%C3%B1o-de.jpg?s=612x612&w=0&k=20&c=43ARGQqjz1bKKS901pPPnNnnFrOhP1K_KBtwYDoYF8k="
+                alt="">
+        </div>
+        <div class="divsection2">
+            <img class="regalo5"
+                src="https://media.istockphoto.com/id/1308342088/es/vector/caja-de-regalo-sorpresa-caja-de-regalo-con-lazo-de-cinta-roja-estilo-plano-dise%C3%B1o-de.jpg?s=612x612&w=0&k=20&c=43ARGQqjz1bKKS901pPPnNnnFrOhP1K_KBtwYDoYF8k="
+                alt="">
+        </div>
+        <div class="divsection2">
+            <img class="regalo6"
+                src="https://media.istockphoto.com/id/1308342088/es/vector/caja-de-regalo-sorpresa-caja-de-regalo-con-lazo-de-cinta-roja-estilo-plano-dise%C3%B1o-de.jpg?s=612x612&w=0&k=20&c=43ARGQqjz1bKKS901pPPnNnnFrOhP1K_KBtwYDoYF8k="
+                alt="">
+        </div>
+        <div class="divsection2">
+            <img class="regalo7"
+                src="https://media.istockphoto.com/id/1308342088/es/vector/caja-de-regalo-sorpresa-caja-de-regalo-con-lazo-de-cinta-roja-estilo-plano-dise%C3%B1o-de.jpg?s=612x612&w=0&k=20&c=43ARGQqjz1bKKS901pPPnNnnFrOhP1K_KBtwYDoYF8k="
+                alt="">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
