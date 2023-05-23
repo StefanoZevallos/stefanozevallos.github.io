@@ -66,13 +66,31 @@
 .imagenRaton {
     display: none;
 }
+/* ABRE REGALO */
+
+.abreregalo-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 35px;
+    padding-top: 15px;
+}
+
+.fraseabreregalo {
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: large;
+    background-color: greenyellow;
+}
+
 /* ----------- */
 .section2 {
     justify-items: center;
     display: grid;
     grid-template-columns: 50% 50%;
     height: 500px;
-    padding-top: 23px;
+    padding-top: 15px;
 }
 
 .divsection2 {
