@@ -66,6 +66,24 @@
 .imagenRaton {
     display: none;
 }
+/* APRETA UN BOTON*/
+
+.abreregalo-container1 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 35px;
+    padding: 20px;
+}
+
+.fraseapretaboton {
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: large;
+    background-color: greenyellow;
+}
+
 /* ABRE REGALO */
 
 .abreregalo-container { 
