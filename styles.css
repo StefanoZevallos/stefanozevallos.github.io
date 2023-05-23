@@ -483,7 +483,7 @@ img {
 
 .footerfoto5 {
     width: 180px;
-    height: 235px;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -491,7 +491,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 10px;
     font-weight:bold ;
 }
 
